@@ -1,0 +1,171 @@
+.home { color: #272d33;
+        font-family: 'Roboto', sans-serif; }
+
+.navbar { position: absolute;
+	        background-color: transparent;
+          border-color: transparent;
+          box-sizing: border-box; 
+          padding-top: 5px;
+          padding-bottom: 5px;
+          -webkit-transition: all 0.4s ease;
+          transition: all 0.4s ease;
+          margin: 0;}
+
+.navbar-right { padding-right: 5px; }
+
+.navbar-inverse .navbar-nav>li>a { font-size: 20px; 
+                                   color: white;
+                                   font-weight: bold;
+                                   padding-top: 30px;
+                                   padding-bottom: 30px;
+                                   padding-right: 15px;  }
+
+.navbar-inverse .navbar-nav>li>a:hover { color: #337ab7;  }
+
+.brand { position: absolute;
+         top: 5px;
+         left: 40px; }
+
+#pasos { position: absolute;
+         bottom: 80px; }
+
+.titulo-principal { text-align: center;
+                    position: relative;
+                    top: 140px; }
+
+
+.titulo-principal h3 { margin-top:  0;
+                       padding-bottom: 25px;
+                       color: white;
+                       font-size: 60px; }
+
+.titulo-principal p { font-size: 20px;
+                      color: white;
+                      font-weight: bold; }
+
+
+.btn-primary { margin-top: 40px;
+               padding: 10px 20px;
+               font-size: 18px;
+               background-color: #337ab7;
+               border-color: #337ab7; }
+
+.btn-primary:hover { background-color: transparent;
+                     font-weight: bold;
+                     border-color: #337ab7;
+                     color: #337ab7; }
+
+.linea-center { width: 40px;
+                height: 3px;
+                background-color: #337ab7;
+                margin: 0 auto 60px auto; }
+
+.jumbotron { height: 80vh;
+             margin-bottom: 50px;
+             background-image: url("../img/head1.jpg");
+             background-position: center;
+             background-repeat: cover; }
+
+.thumbnail img { height: 250px;
+                 width: 350px; }
+
+.nosotros { text-align: center;
+            margin-bottom: 50px;}
+
+.empresa { background-color: #eaecef; }
+
+.texto-empresa { text-align: left; }
+
+.texto-empresa h3 { padding-bottom: 25px;
+                    padding-top: 15px; }
+
+.texto-empresa p { line-height: 30px;
+                   font-size: 16px; }  
+
+.info-empresa { padding-top: 60px;
+                padding-bottom: 60px; }          
+
+.encabezado { font-size: 24px;
+              font-weight: bold; }
+
+.titulo { padding-bottom: 18px; }
+
+.parrafo p { font-size: 16px;
+             line-height: 30px;
+             padding-bottom: 30px; }
+
+.pasos { text-align: center;
+         background-color: #333; }
+
+.pasos-titulo-principal h3 { font-size: 18px;
+                             color: #898989;
+                             padding-top: 10px;
+                             padding-bottom: 24px; }
+
+.art { color: #898989;
+	   padding-bottom: 24px; }
+
+.img { padding-bottom: 10px; }
+
+.clientes { text-align: center;
+            margin-top: 40px;
+            margin-bottom: 40px; }
+
+.subtitulos h2 { font-size: 26px;
+                 padding-top: 20px; }
+
+.oficio { padding-bottom: 20px; }
+
+.footer { background-color: #333; 
+          height: auto; 
+          color: white;
+          padding-top: 30px;}
+
+.footer-list a { color: white; 
+                 font-weight: bold; }
+
+.pull-right a { color: white;
+                font-weight: bold; }
+
+
+@media (max-width: 768px) {
+
+.titulo-principal > h1 { font-size: 45px; }
+
+}
+
+@media (max-width: 768px) {
+
+.titulo-principal > p { font-size: 20px; }
+
+}
+
+@media (max-width: 320px) {
+
+.titulo-principal > h1 { font-size: 30px; }
+
+}
+
+@media (max-width: 320px) {
+
+.titulo-principal > p { font-size: 12px; }
+
+}
+
+@media (min-width: 320px) {
+
+.brand { width: 250px; }
+
+}
+
+@media (max-width: 320px) {
+
+.navbar-inverse .navbar-nav>li>a { font-size: 12px; }
+
+}
+
+@media (max-width: 768px) {
+
+.navbar-inverse .navbar-nav>li>a { font-size: 12px; }
+
+}

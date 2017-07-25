@@ -1,0 +1,56 @@
+.contacto { color: #272d33;
+            font-family: 'Roboto', sans-serif; }
+
+.navbar { position: absolute;
+          background-color: rgba(0,0,0,0.9);
+          border-color: #272d33;
+          box-sizing: border-box; 
+          padding-top: 5px;
+          padding-bottom: 5px;
+          -webkit-transition: all 0.4s ease;
+          transition: all 0.4s ease;
+          margin: 0;}
+
+.navbar-right { padding-right: 5px; }
+
+.navbar-inverse .navbar-nav>li>a { font-size: 18px; 
+                                   color: white;
+                                   font-weight: bold;
+                                   padding-top: 30px;
+                                   padding-bottom: 30px;
+                                   padding-right: 15px;  }
+
+.navbar-inverse .navbar-nav>li>a:hover { color: #337ab7;  }
+
+.brand { position: absolute;
+         top: 5px;
+         left: 40px; }
+
+.titulo { padding-top: 140px;
+          padding-bottom: 20px;
+          text-align: center;}
+
+.titulo h1 { font-size: 28px;
+             font-weight: bold;
+             color: #337ab7; }
+
+.steps { padding-bottom: 5px;
+         border-radius: 2px; }
+
+.steps h3 { font-size: 15px;
+            padding-bottom: 3px;
+            color: #272d33;
+            font-weight: bold; }
+
+.btn { width: 50%;
+       margin-left: 25%;
+       color: #337ab7;
+       border-color: #337ab7;
+       font-size: 15px;
+       font-weight: bold;
+       margin-top: 30px; }
+
+.btn:hover { background-color: #337ab7;
+             color: white;
+             border-color: #337ab7; }
+
