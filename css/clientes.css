@@ -1,5 +1,5 @@
-.contacto { color: #272d33;
-            font-family: 'Roboto', sans-serif; }
+.servicios { color: #272d33;
+             font-family: 'Roboto', sans-serif; }
 
 .navbar { position: absolute;
           background-color: rgba(0,0,0,0.9);
@@ -26,36 +26,27 @@
          top: 5px;
          left: 40px; }
 
+
 .titulo { padding-top: 140px;
-          padding-bottom: 20px;
+          padding-bottom: 70px;
           text-align: center;}
 
-.titulo h1 { font-size: 28px;
-             font-weight: bold;
-             color: #337ab7; }
+.titulo h1 { font-size: 38px;
+             color: #272d33; }
 
-.steps { padding-bottom: 5px;
-         border-radius: 2px; }
+.ultimo { padding-top: 40px; }
 
-.steps h3 { font-size: 15px;
-            padding-bottom: 3px;
-            color: #272d33;
-            font-weight: bold; }
+.linea-center { width: 40px;
+                height: 3px;
+                background-color: #337ab7;
+                margin: 0 auto 40px auto; }
 
-.btn { width: 50%;
-       margin-left: 25%;
-       color: #337ab7;
-       border-color: #337ab7;
-       font-size: 15px;
-       font-weight: bold;
-       margin-top: 30px; }
+.footer { background-color: #333; 
+          height: auto; 
+          color: white;
+          padding-top: 30px;
+          margin-top: 50px;}
 
-.btn:hover { background-color: #337ab7;
-             color: white;
-             border-color: #337ab7; }
+.footer-list a { color: white;  }
 
-#map {
-   width: 95%;
-   height: 350px;
- }
-
+.pull-right a { color: white; }

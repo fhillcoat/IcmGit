@@ -22,22 +22,33 @@
     </div>
 
 
-<div class="formulario">
+<div class="formulario-contacto">
 
-  <div class="row">
-  <div class="col-md-6 col-md-offset-3">
+<div class="row">
   
+  <div class="col-md-6">
+    <div class="ubicacion">
+     <p><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> 4647-0527 y 4657-1893</p>
+     <p><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Godoy Cruz 1663, La Tablada, Buenos Aires.</p>
+     
+     <div id="map"></div>  
+    </div>  
+  </div>
+  
+    
+  <div class="col-md-6">
+   <div class="formulario">
    <form action="php/send_email.php" method="post">
          
            <div class="row">
-               <div class="col-md-6">
+               <div class="col-md-5 col-md-offset-2">
                  <div class="steps">
                     <h3>Nombre/s:</h3>
                     <input type="text" id="nombre" name="nombre" class="form-control" required>
                  </div>
                </div>
 
-               <div class="col-md-6">
+               <div class="col-md-5">
                  <div class="steps">
                     <h3>Empresa:</h3>
                     <input type="text" id="empresa" name="empresa" class="form-control" required>
@@ -46,14 +57,14 @@
             </div>
       
            <div class="row">
-               <div class="col-md-6">
+               <div class="col-md-5 col-md-offset-2">
                  <div class="steps">
                     <h3>Email:</h3>
-                    <input type="mail" id="mail" name="mail" class="form-control" required>
+                   <input type="mail" id="mail" name="mail" class="form-control" required>
                  </div>
                </div>
 
-               <div class="col-md-6">
+               <div class="col-md-5">
                  <div class="steps">
                     <h3>teléfono:</h3>
                     <input type="number" name="quantity" id="telefono" class="form-control" required>
@@ -62,7 +73,7 @@
             </div>
 
       <div class="row">
-         <div class="col-md-12">
+         <div class="col-md-10 col-md-offset-2">
            <div class="steps">
             <h3>Consulta:</h3>
             <textarea id="f_comentarios" type="text" name="consulta" class="form-control" placeholder="Escriba aquí su consulta..." required></textarea>
@@ -71,18 +82,39 @@
       </div>
 
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-10 col-md-offset-2">
           <button type="submit" id="enviar" value="Enviar" class="btn btn-default">Enviar Consulta</button>
         </div>
      </div>
      </form>
-     </div>
+
   </div>
+</div>
+</div>
 </div>
 
 <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
 <script src="js/app.js" type="text/javascript"></script>
+
+<script>
+      function initMap() {
+        var uluru = {lat: -34.6906428, lng: -58.53224080000001};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 12,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+</script>
+
+
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAW0T3k1BmeHp7LQRf1aeRV1w6VCgwBwNw&callback=initMap">
+</script>
 
 </body>
 </html>
